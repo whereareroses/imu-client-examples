@@ -103,9 +103,9 @@ export function draw() {
         fill(255, 255, 255, alpha);
 
         // Fully uncalibrated models are shown in red
-        if (data.calibration === 0) {
-            fill(255, 0, 0, alpha);
-        }
+        // if (data.calibration === 0) {
+        //     fill(255, 0, 0, alpha);
+        // }
 
         // Apply the GUI rotation settings
         rotateX((settings.rx * Math.PI) / 180);
